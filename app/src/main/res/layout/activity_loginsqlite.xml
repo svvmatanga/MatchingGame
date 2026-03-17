@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg20"
+    android:padding="10dp"
+    tools:context=".loginsqlite">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="218dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/lilita_one"
+        android:hint="User Name"
+        android:textColor="#FDFDFD" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="218dp"
+        android:layout_height="57dp"
+        android:fontFamily="@font/lilita_one"
+        android:layout_marginLeft="105dp"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="50dp"
+        android:textColor="#FDFDFD"
+        android:hint="Password" />
+
+    <EditText
+        android:id="@+id/repassword"
+        android:layout_width="218dp"
+        android:layout_height="57dp"
+        android:fontFamily="@font/lilita_one"
+        android:layout_marginLeft="105dp"
+        android:hint="Retype Password"
+        android:layout_marginTop="50dp"
+        android:textColor="#FDFDFD"
+        android:layout_below="@+id/password"
+        />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="142dp"
+        android:layout_height="64dp"
+        android:fontFamily="@font/lilita_one"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="#b7f975"
+        android:text="SIGN-UP"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/btnsignin"
+        android:layout_width="136dp"
+        android:layout_height="58dp"
+        android:fontFamily="@font/lilita_one"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="650dp"
+        android:backgroundTint="#b7f975"
+        android:textColor="#000000"
+        android:text="LOGIN" />
+
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg19"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="208dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="400dp"
+        android:hint="User Name"
+        android:fontFamily="@font/lilita_one"/>
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="208dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="110dp"
+        android:layout_below="@+id/username1"
+        android:layout_marginTop="50dp"
+        android:hint="Password"
+        android:fontFamily="@font/lilita_one"/>
+
+    <Button
+        android:id="@+id/btnsignin1"
+        android:layout_width="178dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/password1"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#E91E63"
+        android:fontFamily="@font/lilita_one"
+        android:text="LOGIN"
+        android:textColorLink="#E91E63" />
+
+    <Button
+        android:id="@+id/backbtn"
+        android:layout_width="91dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="#E91E63"
+        android:fontFamily="@font/lilita_one"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>

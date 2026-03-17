@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg5"
+    tools:context=".CardCatalog"
+    android:orientation="vertical">
+
+    <!-- ViewPager -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="91dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#E91E63"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:contentDescription="back"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/custom_layout"
+        android:contentDescription="Swipe to view different pages">
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+</LinearLayout>

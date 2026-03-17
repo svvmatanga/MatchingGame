@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="91dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#E91E63"
+        android:contentDescription="back"
+        android:text="Back"
+        android:textColor="#FFFFFF" />
+
+    <!-- ScrollView to wrap the leaderboardText -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="300dp">
+
+        <TextView
+            android:id="@+id/leaderboardText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:fontFamily="@font/lilita_one"
+            android:textColor="#153A16"
+            android:text="Leaderboard will appear here..."
+            android:textSize="28sp" />
+    </ScrollView>
+
+</LinearLayout>
